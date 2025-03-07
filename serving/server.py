@@ -8,7 +8,7 @@ import io
 app = FastAPI()
 
 # ML 모델 로드 (예제)
-model = joblib.load("model.pkl")  # 학습된 모델 로드
+model = joblib.load("model.pth")  # 학습된 모델 로드
 
 # CSV 데이터 전처리 함수
 def preprocess_csv(file: UploadFile) -> np.ndarray:
