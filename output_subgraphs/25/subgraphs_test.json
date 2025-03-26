@@ -1,0 +1,171 @@
+[
+    {
+        "type": "ingr_comp",
+        "nodes": [
+            {
+                "id": 7812,
+                "name": "4-Heptanone",
+                "type": "compound",
+                "is_hub": "food"
+            },
+            {
+                "id": 7174,
+                "name": "dimethyl_sulfide",
+                "type": "compound",
+                "is_hub": "food"
+            },
+            {
+                "id": 7189,
+                "name": "benzyl_isothiocyanate",
+                "type": "compound",
+                "is_hub": "food"
+            },
+            {
+                "id": 7318,
+                "name": "4'-Hydroxyacetophenone",
+                "type": "compound",
+                "is_hub": "food"
+            },
+            {
+                "id": 7448,
+                "name": "Methyl_Stearate",
+                "type": "compound",
+                "is_hub": "food"
+            },
+            {
+                "id": 4768,
+                "name": "pheasant",
+                "type": "ingredient",
+                "is_hub": "hub"
+            },
+            {
+                "id": 7841,
+                "name": "6-Pentyl-2H-pyran-2-one",
+                "type": "compound",
+                "is_hub": "food"
+            },
+            {
+                "id": 7730,
+                "name": "Dimethyl_trisulfide",
+                "type": "compound",
+                "is_hub": "food"
+            },
+            {
+                "id": 3378,
+                "name": "ice_cream_cone",
+                "type": "ingredient",
+                "is_hub": "hub"
+            },
+            {
+                "id": 1845,
+                "name": "date",
+                "type": "ingredient",
+                "is_hub": "hub"
+            },
+            {
+                "id": 8136,
+                "name": "2-(4-Methoxyphenoxy)propanoic_acid",
+                "type": "compound",
+                "is_hub": "food"
+            },
+            {
+                "id": 8392,
+                "name": "alpha-Farnesene",
+                "type": "compound",
+                "is_hub": "food"
+            },
+            {
+                "id": 8141,
+                "name": "2,4-Dimethyl-5-ethylthiazole",
+                "type": "compound",
+                "is_hub": "food"
+            },
+            {
+                "id": 8397,
+                "name": "Oleuropein",
+                "type": "compound",
+                "is_hub": "food"
+            },
+            {
+                "id": 8151,
+                "name": "Berteroin",
+                "type": "compound",
+                "is_hub": "food"
+            },
+            {
+                "id": 8156,
+                "name": "L-Malic_acid",
+                "type": "compound",
+                "is_hub": "food"
+            },
+            {
+                "id": 4702,
+                "name": "pear_brandy",
+                "type": "ingredient",
+                "is_hub": "hub"
+            },
+            {
+                "id": 8166,
+                "name": "MLS002607979",
+                "type": "compound",
+                "is_hub": "food"
+            },
+            {
+                "id": 8428,
+                "name": "2-Undecenal",
+                "type": "compound",
+                "is_hub": "food"
+            },
+            {
+                "id": 7277,
+                "name": "Acetyleugenol",
+                "type": "compound",
+                "is_hub": "food"
+            },
+            {
+                "id": 8561,
+                "name": "Ethyl_trans-2-decenoate",
+                "type": "compound",
+                "is_hub": "food"
+            },
+            {
+                "id": 885,
+                "name": "candy_bar",
+                "type": "ingredient",
+                "is_hub": "hub"
+            },
+            {
+                "id": 8310,
+                "name": "Methyl_propenyl_ketone",
+                "type": "compound",
+                "is_hub": "food"
+            },
+            {
+                "id": 762,
+                "name": "buffalo",
+                "type": "ingredient",
+                "is_hub": "hub"
+            },
+            {
+                "id": 7164,
+                "name": "Dl-Phenylalanine",
+                "type": "compound",
+                "is_hub": "food"
+            }
+        ],
+        "edges": [
+            {
+                "source": 7730,
+                "target": 4702,
+                "weight": 1,
+                "type": "ingr-fcomp"
+            },
+            {
+                "source": 4702,
+                "target": 8561,
+                "weight": 1,
+                "type": "ingr-fcomp"
+            }
+        ]
+    }
+]
